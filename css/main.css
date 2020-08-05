@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #F5F5F5;
+
+}
+
+.content {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+.shoe {
+  /* margin: 0 auto; */
+  background-color: rgb(101,246,201);
+  width: 22vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  
+  
+}
+
+.shoe-img {
+  width: 300px;
+  position: relative;
+  right: 20px;
+  
+}
+.icon {
+  display: flex;
+  align-items: top;
+  width: 10vw;
+  height: 15vh;
+}
+
+.blue {
+  color: red
+
+}
+.strike {
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.text {
+  width: 60rem;
+  background: #ffffff;
+  padding: 3rem 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+
+.description {
+  padding-bottom: 30px;
+}
