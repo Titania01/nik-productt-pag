@@ -7,7 +7,7 @@
 body {
   padding: 0;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #F5F5F5;
+  background-color:violet;
 
 }
 
@@ -45,12 +45,15 @@ body {
 }
 
 .blue {
-  color: red
+  color: red;
+  font-size: 1rem;
+  font-weight: bolder;
 
 }
 .strike {
   text-decoration: line-through;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1rem;
 }
 
 .text {
@@ -59,9 +62,18 @@ body {
   padding: 3rem 30px;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
+  font-size: 0.75rem;
+  line-height: 2.2em;
 
 }
 
 .description {
-  padding-bottom: 30px;
+  padding-top: 45px;
+}
+
+.shape {
+  width: 150px;
+  height: 50px;
+  background: #FF6367;
+  border-radius: 5px;
 }
